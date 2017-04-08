@@ -97,7 +97,7 @@ hr{
 
 .paragraph{
     width: 1012px;
-    margin: 260px 6px 0px 6px;
+    margin: 40px 6px 0px 6px;
     height: 1000px;
     text-align: justify;
     white-space: normal;
@@ -129,13 +129,12 @@ hr{
 }
 
 .photo{
-    height:200px;
-    width: 280px;
+    width: 324px;
     z-index: 1;
     position: absolute;
     display: inline;
-    left: 423px;
-    top: 62px;
+    right: 0px;
+    top: 300px;
     
 }
 
@@ -159,6 +158,27 @@ img{
     background-color:white;
     opacity: 0.8;
     color: #000033;
+}
+
+.button2{
+    width: 922px;
+    height: 75px;
+    float: left;
+    line-height: 75px;
+    background-color: white;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    opacity: 0.9;
+}
+
+#abouts{
+    margin-top: 30px;
+    margin-left: -40px;
+}
+
+#abouts li{
+    padding-top: 10px;
+    margin-left: 20px;
 }
 
 .footer{
